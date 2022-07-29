@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  list-style-type:none;
+  text-decoration: none;
+  font-family: "poppins",sans-serif;
+}
+.container{
+  height:70px;
+  background-color: white;
+}
+.container .brand-name{
+  float:left;
+}
+.container .brand-name .logo{
+  width:80px;
+  margin:5px;
+}
+.container .brand-name label{
+  font-size: 40px; 
+  color:grey;
+  position:absolute;
+  top:5px;
+  left:90px;
+  margin:10px;
+}
+.container .content ul{
+  float:right;
+  position:absolute;
+  top:25px;
+  right:10px;
+}
+.container .content ul li{
+  display:inline;
+  color:grey;
+  margin:5px;
+  padding:5px;
+  font-size: 18px;
+  border-radius:10px;
+}
+.container .content ul li:hover{
+  background-color:#FA7D09;
+  color:black;
+  cursor:pointer;
+}
+hr{
+  margin:20px;
+}
+.card{
+  position: absolute;
+top: 50%;
+  left:50%;
+transform: translate(-50%,-50%);
+  width:300px;
+  box-shadow:1px 1px 10px grey;
+  border-radius:10px;
+  padding-bottom:10px;
+}
+.heading{
+  color:BLACK;
+  background:#FA7D09;
+  padding:10px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.form{
+  margin:10px;
+  padding:10px;
+  border:1px solid #c4c4c4;
+  border-radius:10px;
+}
+.input{
+  display:block;
+  width:80%;
+  margin:10px;
+  padding:10px;
+  border:1px #c4c4c4 solid;
+  border-radius:10px;
+}
+#submit-btn{
+  color:BLACK;
+  width:89%;
+  background:#FA7D09;
+  font-weight:bold;
+}
+.comments{
+  position:absolute;
+  bottom:0;
+}
+.comments h3{
+  position:relative;
+  left:400px;
+  top:70px;
+}
+textarea{
+  padding: 10px;
+  border:1px #c4c4c4 solid;
+  border-radius:10px;
+  position:relative;
+  left:525px;
+}
